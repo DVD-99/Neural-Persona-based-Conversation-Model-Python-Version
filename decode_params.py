@@ -3,7 +3,7 @@ class decode_params:
 		self.beam_size=7
 		self.batch_size=256
 		self.SpeakerID=2
-		self.decode_path="save/testing"
+		self.decode_path="save/testing/non_persona"
 		self.model_file=self.decode_path+"/model1"
 		self.DecodeFile="/test.txt"
 		self.DiverseRate=0
